@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 style="font-family: sans-serif;">Página com Formulário</h1>
+    </header>
+
+    <section id="about-me" style="text-align: center;">
+        <h2>Sobre mim</h2>
+        <p>Meu nome é Pedro, tenho 21 anos, sou natural do Rio de Janeiro, e estou atualmente no primeiro semestre de
+            análise e desenvolvimento de sistemas na FMP</p>
+        <a href="blog.html" class="button">Ir para meu blog</a>
+    </section>
+
+
+    <div class="gallery">
+        <img src="static/img/ht.png" alt="Imagem 1">
+        <img src="static/img/cs.png" alt="Imagem 2">
+        <img src="static/img/j.webp" alt="Imagem 3">
+    </div>
+
+    <section class="form-section" id="contact-form">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required class="formitem">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required class="formitem">
+
+            <label for="opinion">Quão bom é comic sans ?</label>
+            <select id="opinion" name="opinion" required class="formitem">
+                <option value="" disabled selected hidden>Escolha uma opção</option>
+                <option value="most">Muito Bom</option>
+                <option value="med">É demais</option>
+                <option value="none">O melhor</option>
+            </select>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" maxlength="200" placeholder="Limite de 200 caracteres"
+                class="formitem"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Pedro Dal - 2024</p>
+    </footer>
+
+</body>
+
+</html>

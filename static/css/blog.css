@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+header, footer {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #30D5C8;
+}
+
+.row {
+    display: flex;
+}
+
+.leftcolumn {
+    flex: 3;
+}
+
+.rightcolumn {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-image: url("../img/teste.jpeg");
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
